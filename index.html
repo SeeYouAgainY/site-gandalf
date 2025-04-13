@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ГЭНДАЛЬФ - Карьера</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__mobile-left">
+          <a href="#" class="mobile-icon mobile-icon--search">
+            <img src="icons/Vector.svg" alt="Search" />
+          </a>
+          <a href="#" class="mobile-icon mobile-icon--cart">
+            <img src="icons/Group.svg" alt="Cart" />
+          </a>
+        </div>
+
+        <a href="/" class="header__logo">
+          <img
+            src="icons/Group 156.svg"
+            alt="Gendalf Logo Desktop"
+            class="logo-desktop"
+          />
+        </a>
+
+        <div class="header__mobile-right">
+          <a href="#" class="mobile-icon mobile-icon--user">
+            <img src="icons/icon-profile.svg" alt="Profile" />
+          </a>
+          <button
+            class="header__burger-btn"
+            id="burger-menu-toggle"
+            aria-label="Открыть меню"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+
+        <nav class="header__nav header__nav--desktop">
+          <ul class="nav__list">
+            <li><a href="/" class="nav__list-link">Профориентация</a></li>
+            <li><a href="/" class="nav__list-link">Выбрать вакансию</a></li>
+            <li><a href="/" class="nav__list-link">Карьера в ГЭНДАЛЬФ</a></li>
+            <li><a href="/" class="nav__list-link">Стажерство</a></li>
+            <li><a href="/" class="nav__list-link">Отзывы</a></li>
+          </ul>
+          <button class="nav__button">Запись на собеседование</button>
+        </nav>
+
+        <nav
+          class="header__nav header__nav--mobile"
+          id="mobile-menu"
+          aria-hidden="true"
+        >
+          <ul class="nav__list">
+            <li><a href="/" class="nav__list-link">Профориентация</a></li>
+            <li><a href="/" class="nav__list-link">Выбрать вакансию</a></li>
+            <li><a href="/" class="nav__list-link">Карьера в ГЭНДАЛЬФ</a></li>
+            <li><a href="/" class="nav__list-link">Стажерство</a></li>
+            <li><a href="/" class="nav__list-link">Отзывы</a></li>
+          </ul>
+          <button class="nav__button">Запись на собеседование</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="welcome">
+        <div class="welcome__container">
+          <div class="welcome__image">
+            <img src="image/DSC_0451 1.jpg" alt="Office" />
+          </div>
+          <div class="welcome__content">
+            <h1 class="welcome__title">Добро пожаловать<br />в ГЭНДАЛЬФ!</h1>
+            <p class="welcome__text">
+              Мы готовы поделиться секретом, почему любим компанию, в которой
+              работаем. Если тебе будут близки наши ценности и идеи, то смело
+              записывайся на собеседование!
+            </p>
+            <div class="welcome__actions">
+              <button class="welcome__why">Почему мы</button>
+              <button class="welcome__button">
+                Записаться на собеседование
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="about__container">
+          <div class="about__content">
+            <h2 class="about__title">О том, чем мы занимаемся</h2>
+            <div class="about__text">
+              <p>
+                ГЭНДАЛЬФ – один из крупнейших игроков на рынке информационных
+                технологий, занимающий 4 место среди 7000 партнеров фирмы «1С».
+                У нас есть представительства в 15 городах России, а нашими
+                услугами пользуются 23 000 организаций-клиентов, в числе которых
+                «Базал Аэро», «Ростельмаш», UTG. Аэропорт Кольцово и многие
+                другие.
+              </p>
+              <p>
+                Мы тщательно подходим к выбору сотрудников, которые становятся
+                частью команды профессионалов.
+              </p>
+              <p>
+                У нас работают специалисты разных областей: программисты,
+                маркетологи, менеджеры, копирайтеры, методисты и другие, чей
+                карьерный рост не ограничен привычными рамками.
+              </p>
+            </div>
+            <div class="about__actions">
+              <button class="about__more">Узнать больше</button>
+              <button class="about__button">Записаться на собеседование</button>
+            </div>
+          </div>
+          <div class="about__image">
+            <img src="image/AdobeStock_446554881 1.jpg" alt="Worker" />
+          </div>
+        </div>
+      </section>
+      <section class="values-slider">
+        <div class="values__slider-container">
+          <h2 class="values__slider-title">
+            Наши ценности скажут о нас больше:
+          </h2>
+          <div class="values__slider-wrapper">
+            <div class="values__slider-track">
+              <div class="values__slider-item">
+                <div class="values__slider-image-wrapper">
+                  <img
+                    src="image/Ценности-11 (2).png"
+                    alt="Быть командой"
+                    class="values__slider-image"
+                  />
+                  <img
+                    src="image/Polygon-slider.png"
+                    alt="1"
+                    class="values__slider-number"
+                  />
+                </div>
+                <h3 class="values__slider-item-title">Быть командой</h3>
+                <p class="values__slider-item-text">
+                  Готовность вносить вклад в общие цели команды и достигать их
+                </p>
+              </div>
+              <div class="values__slider-item">
+                <div class="values__slider-image-wrapper">
+                  <img
+                    src="image/Ценности-10.png"
+                    alt="Побеждать и не сдаваться"
+                    class="values__slider-image"
+                  />
+                  <img
+                    src="image/Polygon-slider.png"
+                    alt="2"
+                    class="values__slider-number"
+                  />
+                </div>
+                <h3 class="values__slider-item-title">
+                  Побеждать и не сдаваться
+                </h3>
+                <p class="values__slider-item-text">
+                  Быть ориентированным на результат, настойчивым и не сдаваться
+                  перед трудностями
+                </p>
+              </div>
+              <div class="values__slider-item">
+                <div class="values__slider-image-wrapper">
+                  <img
+                    src="image/Ценности-08.png"
+                    alt="Заботиться о клиентах"
+                    class="values__slider-image"
+                  />
+                  <img
+                    src="image/Polygon-slider.png"
+                    alt="3"
+                    class="values__slider-number"
+                  />
+                </div>
+                <h3 class="values__slider-item-title">Заботиться о клиентах</h3>
+                <p class="values__slider-item-text">
+                  Выполнять обещания и интересоваться потребностями своих
+                  клиентов
+                </p>
+              </div>
+              <div class="values__slider-item">
+                <div class="values__slider-image-wrapper">
+                  <img
+                    src="image/Ценности-09.png"
+                    alt="Быть увлеченным и ответственным"
+                    class="values__slider-image"
+                  />
+                  <img
+                    src="image/Polygon-slider.png"
+                    alt="4"
+                    class="values__slider-number"
+                  />
+                </div>
+                <h3 class="values__slider-item-title">
+                  Быть увлеченным и ответственным
+                </h3>
+                <p class="values__slider-item-text">
+                  Вкладывать душу в то, что делаешь и получать от работы
+                  удовольствие
+                </p>
+              </div>
+              <div class="values__slider-item">
+                <div class="values__slider-image-wrapper">
+                  <img
+                    src="image/Ценности-09 (1).png"
+                    alt="Развиваться"
+                    class="values__slider-image"
+                  />
+                  <img
+                    src="image/Polygon-slider.png"
+                    alt="5"
+                    class="values__slider-number"
+                  />
+                </div>
+                <h3 class="values__slider-item-title">Развиваться</h3>
+                <p class="values__slider-item-text">
+                  Постоянно расти личностно и профессионально для достижения
+                  поставленных целей
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="development">
+        <div class="development__container">
+          <h2 class="development__title">
+            Инфраструктура для твоего развития и роста
+          </h2>
+          <div class="content-wrapper">
+            <div class="development__content">
+              <div class="development__text">
+                <p class="development__lead">
+                  Мы создаем платформу для профессионального<br />
+                  развития каждого сотрудника. Главная цель – дать<br />
+                  возможность учиться, работать и получать<br />
+                  удовольствие от каждой успешной задачи.
+                </p>
+                <p class="development__lead">
+                  О возможностях личностного роста в ГЭНДАЛЬФ<br />
+                  расскажет руководитель Департамента персонала и<br />
+                  карьеры Татьяна Арсенович.
+                </p>
+              </div>
+            </div>
+            <div class="development__video">
+              <img src="image/image1.jpg" alt="video presentation" />
+              <img src="image/play.png" alt="play" class="play-icon" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="feed">
+        <div class="feed__container">
+          <h2 class="feed__title">Живая лента</h2>
+          <div class="feed__slider">
+            <button
+              class="feed__arrow feed__arrow--prev"
+              id="feed-prev"
+              aria-label="Предыдущий слайд"
+            >
+              &#10094;
+            </button>
+            <div class="feed__wrapper" id="feed-wrapper">
+              <div class="feed__track" id="feed-track">
+                <div class="feed__card">
+                  <img
+                    src="image/pic1.png"
+                    alt="Экономим на бумаге и угадываем фильмы"
+                    class="feed__card-image"
+                  />
+                  <div class="feed__card-content">
+                    <h3 class="feed__card-title">
+                      Экономим на бумаге и угадываем фильмы: дайджест видео
+                      марта 2022 года
+                    </h3>
+                    <a href="#" class="feed__card-button">Перейти к статье</a>
+                  </div>
+                </div>
+
+                <div class="feed__card">
+                  <img
+                    src="image/pic2.png"
+                    alt="Изменения 2022 года"
+                    class="feed__card-image"
+                  />
+                  <div class="feed__card-content">
+                    <h3 class="feed__card-title">Изменения 2022 года</h3>
+                    <a href="#" class="feed__card-button">Перейти к статье</a>
+                  </div>
+                </div>
+
+                <div class="feed__card">
+                  <img
+                    src="image/pic3.png"
+                    alt="Почему стоит работать программистом в 2022 году"
+                    class="feed__card-image"
+                  />
+                  <div class="feed__card-content">
+                    <h3 class="feed__card-title">
+                      Почему стоит работать программистом в 2022 году
+                    </h3>
+                    <a href="#" class="feed__card-button">Перейти к статье</a>
+                  </div>
+                </div>
+                <div class="feed__card">
+                  <img
+                    src="image/pic4.png"
+                    alt="Автоматизированный УСН и путевые листы"
+                    class="feed__card-image"
+                  />
+                  <div class="feed__card-content">
+                    <h3 class="feed__card-title">
+                      Автоматизированный УСН и путевые листы: дайджест новостей
+                      за март 2022. Автоматизированный УСН и путевые листы
+                    </h3>
+                    <a href="#" class="feed__card-button">Перейти к статье</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="feed__arrow feed__arrow--next"
+              id="feed-next"
+              aria-label="Следующий слайд"
+            >
+              &#10095;
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="internship">
+        <div class="internship__container">
+          <div class="internship__image">
+            <img src="image/intership.png" alt="student internship" />
+          </div>
+          <div class="internship__content">
+            <h2 class="internship__title">
+              Ты студент и хочешь устроиться<br />
+              на практику?
+            </h2>
+            <button class="internship__button">Оставить заявку</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq">
+        <div class="faq__container">
+          <div class="faq__content">
+            <h2 class="faq__title">Ответы на вопросы</h2>
+            <div class="faq__list">
+              <div class="faq__item faq__item--active">
+                <div class="faq__item-header">
+                  <img
+                    src="icons/arrow-op%20174%20(1).svg"
+                    alt="State"
+                    class="faq__item-arrow"
+                  />
+                  <h3 class="faq__item-title">
+                    На что нужно обратить внимание на собеседовании?
+                  </h3>
+                </div>
+                <div class="faq__item-details">
+                  <p class="faq__paragraph">
+                    Кроме умения представлять себя, грамотно разговаривать и
+                    опрятного внешнего вида, стоит обратить внимание еще на пару
+                    моментов. Они не очевидны, но очень эффективны.
+                  </p>
+                  <ul class="faq__bullet-list">
+                    <li class="faq__bullet-item">
+                      <strong>Сохраняйте спокойствие.</strong> Конечно,
+                      собеседование – это стрессовая ситуация, которая мешает
+                      конструктивно мыслить. Если волнение берет верх – выпейте
+                      немного воды, прижмите стопы к полу, а главное, помните:
+                      ничего ужасного произойти не может.
+                    </li>
+                    <li class="faq__bullet-item">
+                      <strong>Внимание к самопрезентации.</strong> Если
+                      собеседование – пьеса, вы – ее главный герой. Подготовьте
+                      рассказ о себе заранее, опираясь на важные навыки, и
+                      опишите, почему это важно для данной работы. Все это
+                      придаст вам уверенности в себе.
+                    </li>
+                    <li class="faq__bullet-item">
+                      <strong>Каверзные вопросы – это норма.</strong> Если вам
+                      задали какой-либо вопрос, который кажется вам сложным или
+                      задевает личные качества, знайте – правильных ответов не
+                      существует. Каверзные вопросы призваны показать вашу
+                      стрессоустойчивость и умение ориентироваться в ситуации.
+                      Здесь поможет адекватная самокритика и знания в своей
+                      профессии.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="faq__item">
+                <div class="faq__item-header">
+                  <img
+                    src="icons/arrow-op%20174%20(1).svg"
+                    alt="State"
+                    class="faq__item-arrow"
+                  />
+                  <h3 class="faq__item-title">
+                    Как правильно составить резюме?
+                  </h3>
+                </div>
+                <div class="faq__item-details">
+                  <p>...</p>
+                </div>
+              </div>
+              <div class="faq__item">
+                <div class="faq__item-header">
+                  <img
+                    src="icons/arrow-op%20174%20(1).svg"
+                    alt="State"
+                    class="faq__item-arrow"
+                  />
+                  <h3 class="faq__item-title">
+                    Возможно ли устроиться без опыта?
+                  </h3>
+                </div>
+                <div class="faq__item-details">
+                  <p>...</p>
+                </div>
+              </div>
+              <div class="faq__item">
+                <div class="faq__item-header">
+                  <img
+                    src="icons/arrow-op%20174%20(1).svg"
+                    alt="State"
+                    class="faq__item-arrow"
+                  />
+                  <h3 class="faq__item-title">
+                    Ошибки на собеседовании. Чего нужно избегать?
+                  </h3>
+                </div>
+                <div class="faq__item-details">
+                  <p>...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="faq__image">
+            <img src="image/quest.png" alt="The man with the question marks" />
+          </div>
+        </div>
+      </section>
+      <section class="application-form">
+        <div class="application-form__container">
+          <h2 class="application-form__title">Записаться на собеседование</h2>
+          <form action="#" method="post" class="form">
+            <div class="form__group">
+              <label for="name" class="form__label visually-hidden"
+                >Как к вам обращаться?</label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form__input"
+                required
+                placeholder="Как к вам обращаться?"
+              />
+            </div>
+
+            <div class="form__group">
+              <label for="phone" class="form__label visually-hidden"
+                >Телефон</label
+              >
+              <div class="form__input-wrapper">
+                <input
+                  style="border: 2px solid #fd7583"
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  class="form__input"
+                  required
+                  placeholder="Телефон"
+                />
+                <span class="form__validation-icon form__validation-icon--error"
+                  >&#10006;</span
+                >
+              </div>
+            </div>
+
+            <div class="form__group">
+              <label for="email" class="form__label visually-hidden"
+                >Email</label
+              >
+              <div class="form__input-wrapper">
+                <input
+                  style="border: 2px solid #9bcc37"
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form__input"
+                  required
+                  placeholder="Email"
+                />
+                <span
+                  class="form__validation-icon form__validation-icon--success"
+                  >&#10004;</span
+                >
+              </div>
+            </div>
+
+            <div class="form__group">
+              <label for="position" class="form__label visually-hidden"
+                >Желаемая должность</label
+              >
+              <input
+                type="text"
+                id="position"
+                name="position"
+                class="form__input"
+                required
+                placeholder="Желаемая должность"
+              />
+            </div>
+
+            <fieldset class="form__group form__group--radio">
+              <legend class="form__label form__label--radio-legend">
+                Выберите категорию занятости
+              </legend>
+              <div class="form__radio-options">
+                <div class="form__radio-item">
+                  <input
+                    type="radio"
+                    id="office"
+                    name="employment_type"
+                    value="office"
+                    checked
+                  />
+                  <label for="office">Работа в офисе</label>
+                </div>
+                <div class="form__radio-item">
+                  <input
+                    type="radio"
+                    id="internship-radio"
+                    name="employment_type"
+                    value="internship"
+                  />
+                  <label for="internship-radio">Стажировка</label>
+                </div>
+                <div class="form__radio-item">
+                  <input
+                    type="radio"
+                    id="remote"
+                    name="employment_type"
+                    value="remote"
+                  />
+                  <label for="remote">Удаленная работа</label>
+                </div>
+              </div>
+            </fieldset>
+
+            <div class="form__group">
+              <label
+                for="questions"
+                class="form__label visually-hidden form__label_text"
+                >Ваши вопросы</label
+              >
+              <textarea
+                id="questions"
+                name="questions"
+                class="form__textarea"
+                rows="4"
+                placeholder="Ваши вопросы"
+              ></textarea>
+            </div>
+
+            <div class="form__actions">
+              <label for="resume" class="form__button form__button--attach">
+                Прикрепить резюме
+                <img
+                  src="icons/Vector (1).svg"
+                  alt=""
+                  class="form__attach-icon"
+                />
+              </label>
+              <input
+                type="file"
+                id="resume"
+                name="resume"
+                class="form__input--file"
+                accept=".pdf,.doc,.docx"
+              />
+              <button type="submit" class="form__button form__button--submit">
+                Записаться
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
